@@ -1,0 +1,1 @@
+web: gunicorn reportGeneration:app --log-file -
