@@ -26,9 +26,9 @@ def printResut(recordList):
 def checkDataWithSalesforce(recordId, amount, type):
     try:
         # print('Salesforce not connected yet')
-        username = 'system@iloan.nl.prd'
-        password = '17!zSZSiKd4Hax3aSTfNIqRY'
-        security_token = '8QJPLRnE0Xd83wTNHJsMLQkJ'
+        username = ''
+        password = ''
+        security_token = ''
         sf = Salesforce(username=username, password=password, security_token=security_token)
         # print('salesforce connected')
         # sessionid = sf.session_id
